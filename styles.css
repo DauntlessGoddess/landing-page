@@ -35,12 +35,35 @@ body {
 }
 
 #hero-part {
+  /* background-color: aquamarine; */
   height: 350px;
   width: 100%;
 }
 
+#main-hero {
+  /* background-color: aquamarine; */
+  height: 60%;
+  width: 80%;
+}
+
+#img-placeholder {
+  height: 100%;
+  width: 50%;
+}
+
 #hero-text {
   flex-direction: column;
+  height: 100%;
+  width: 50%;
+  align-items: start;
+}
+
+#signup-btn {
+  height: 40px;
+  width: 130px;
+  border-radius: 10px;
+  background-color: #2b8ddd;
+  color: white;
 }
 
 .light-text {
