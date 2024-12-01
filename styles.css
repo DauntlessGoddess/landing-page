@@ -89,7 +89,7 @@ body {
 }
 
 #main-info {
-  background-color: bisque;
+  /* background-color: bisque; */
   height: 270px;
   width: 100%;
 }
@@ -99,7 +99,23 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: #f9faf8;
+  /* background-color: #f9faf8; */
   height: 100%;
   width: 200px;
+}
+
+.img-box {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  border-color: #3882f6;
+  border-style: solid;
+  padding: 10px;
+}
+
+#quote-box {
+  height: 300px;
+  width: 100%;
+  background-color: #e5e7eb;
+  flex-direction: column;
 }
